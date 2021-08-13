@@ -1,0 +1,50 @@
+.our-commitiment-wrapper {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 168px;
+}
+.our-commitiment {
+  position: relative;
+  padding: 90px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.our-commitiment__background {
+  width: 445px;
+  height: 520px;
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+  background-image: url(../images/about-bgi.jpg);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 445px 520px;
+}
+.our-commitiment__content {
+  position: relative;
+  z-index: 1;
+}
+.our-commitiment__title {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 32px;
+  font-family: Fraunces;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333d4b;
+}
+.our-commitiment__text {
+  margin: 0;
+  padding: 0;
+  max-width: 540px;
+  font-family: Barlow;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+  opacity: 0.8;
+}

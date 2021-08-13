@@ -1,0 +1,52 @@
+.plane {
+  margin-bottom: 136px;
+  border-radius: 10px;
+  background-image: url(../images/Bitmap.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  &__content{
+    padding: 115px 0 115px 85px;
+  }
+  &__title{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 32px;
+    max-width: 493px;
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #fefcf7;
+  }
+  &__text{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 56px;
+    max-width: 445px;
+    font-family: Barlow;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fefcf7;
+    opacity: 0.8;
+  }
+  &__link{
+    padding: 15px 30px;
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #fefcf7;
+    text-decoration: none;
+    background: #0e8784;
+    border-radius: 6px;
+  }
+  
+}
+@media only screen and (max-width: 768px){
+  .plane{
+    max-width: 690px;
+  }
+}

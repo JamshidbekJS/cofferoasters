@@ -1,0 +1,48 @@
+.quality-wrapper {
+  position: relative;
+  padding: 88px 0 168px;
+}
+.quality {
+  border-radius: 10px;
+  padding: 85px 88px 176px;
+  background-color: #293039;
+}
+.quality__content {
+  position: relative;
+  z-index: 1;
+}
+.quality__title {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 32px;
+  max-width: 540px;
+  font-family: Fraunces;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fefcf7;
+}
+.quality__text {
+  margin: 0;
+  padding: 0;
+  width: 540px;
+  font-family: Barlow;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  opacity: 0.8;
+}
+.quality__bacground {
+  width: 445px;
+  height: 474px;
+  right: 85px;
+  top: 0;
+  position: absolute;
+  z-index: 0;
+  border-radius: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 445px 474px;
+  background-image: url(../images/about-bgi-2.jpg);
+}
